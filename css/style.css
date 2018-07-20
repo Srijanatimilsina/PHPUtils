@@ -1,0 +1,66 @@
+
+.error{
+		border-color: red;
+		border-radius: 5px;
+		margin: 5px;
+		padding:5px;
+		width: 300px;
+	}
+
+.validate{
+	border-radius: 5px;
+	margin: 5px;
+	padding:5px;
+	width: 300px;
+
+}
+.novalidate{
+	border-radius: 5px;
+	margin: 5px;
+	padding:5px;
+	width: 300px;
+
+}
+#submit-btn{
+	border-style: double;
+	border-radius: 3px;
+	margin-left: 50px;
+}
+.radio{
+	list-style: inline;
+}
+label{
+	font-weight: bold;
+}
+button{
+	font-weight: bold;
+	height: 50px;
+	width: 100px;
+}
+
+#autocomplete{
+			height:auto;
+			width:300px;
+			background:black;
+			color:white;
+			}
+#autocomplete li{
+				list-style: none;
+				height: 30px;
+			}
+#autocomplete li:hover{
+				background: gray
+				cursor:pointer;
+				font-weight: bold;
+			}
+.form{
+	align:center;
+}
+#form-control{
+			border-radius: 10px;
+			height: 100px;
+		}
+#form-control:focus{
+			outline:none;
+			border: 3px solid black;
+		}
